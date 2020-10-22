@@ -25,7 +25,7 @@
     <dependencies>
         <dependency>
             <groupId>org.istio</groupId>
-            <artifactId>org.istio.MarkedDataFunctions</artifactId>
+            <artifactId>org.istio.MarketDataFunctions</artifactId>
             <version>1.0.2</version>
         </dependency>
     </dependencies>

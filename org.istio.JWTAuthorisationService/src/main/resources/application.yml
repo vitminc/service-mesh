@@ -10,6 +10,6 @@ keycloak:
   server:
     contextPath: /auth
     adminUser:
-      username: bael-admin
-      password: pass
-    realmImportFile: baeldung-realm.json
+      username: admin
+      password: admin
+    realmImportFile: testapp-realm.json

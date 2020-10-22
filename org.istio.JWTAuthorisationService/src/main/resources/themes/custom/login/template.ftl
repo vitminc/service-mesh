@@ -34,7 +34,7 @@
 <body class="${properties.kcBodyClass!}">
   <div class="${properties.kcLoginClass!}">
     <div id="kc-header" class="${properties.kcHeaderClass!}">
-      <div id="kc-header-wrapper" class="${properties.kcHeaderWrapperClass!}">WELCOME TO BAELDUNG</div>
+      <div id="kc-header-wrapper" class="${properties.kcHeaderWrapperClass!}">WELCOME TO TEST APPLICATION</div>
     </div>
     <div class="${properties.kcFormCardClass!} <#if displayWide>${properties.kcFormCardAccountClass!}</#if>">
       <header class="${properties.kcFormHeaderClass!}">

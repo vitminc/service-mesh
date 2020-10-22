@@ -24,8 +24,8 @@ import io.restassured.response.Response;
 public class ResourceServerLiveTest {
 
     private final String redirectUrl = "http://localhost:8084/";
-    private final String authorizeUrlPattern = "http://localhost:8083/auth/realms/baeldung/protocol/openid-connect/auth?response_type=code&client_id=jwtClient&scope=%s&redirect_uri=" + redirectUrl;
-    private final String tokenUrl = "http://localhost:8083/auth/realms/baeldung/protocol/openid-connect/token";
+    private final String authorizeUrlPattern = "http://localhost:8083/auth/realms/testapp/protocol/openid-connect/auth?response_type=code&client_id=jwtClient&scope=%s&redirect_uri=" + redirectUrl;
+    private final String tokenUrl = "http://localhost:8083/auth/realms/testapp/protocol/openid-connect/token";
     private final String resourceUrl = "http://localhost:8081/jwt-resource-server/api/foos";
     private final String userInfoResourceUrl = "http://localhost:8081/jwt-resource-server/user/info";
 

@@ -13,6 +13,7 @@
 		<module>org.istio.MarketDataClient</module>
 		<module>org.istio.MarketDataServer</module>
 		<module>org.istio.MarketDataRest</module>
+		<module>org.istio.SecurityTokenService</module>
 	</modules>
 
 </project>

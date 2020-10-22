@@ -1,1 +1,1 @@
-com.baeldung.auth.config.SimplePlatformProvider
+org.istio.auth.config.SimplePlatformProvider

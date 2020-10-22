@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "org.istio.marketdata";
+option java_outer_classname = "MarketDataSubscription";
+
+package marketdata;
+
+service MarketData {
+  rpc UpdateSecurity (Security) returns (SecurityInfo) {}
+}
+
+message Security {
+  string SecurityCode = 1;
+  SecurityCodeType SecurityCodeType = 2;
+}
+
+enum SecurityCodeType {
+  WKN = 0;
+  ISIN = 1;
+}
+
+
+message SecurityInfo {
+  string SecurityCode = 1;
+  SecurityCodeType SecurityCodeType = 2;
+  string SecurityName = 3;
+}
